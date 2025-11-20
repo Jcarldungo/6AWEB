@@ -1,0 +1,19 @@
+/* COMPACT CHANGE: Reduced padding */
+.section-box { padding: 20px 30px; border-bottom: 1px solid #f0f0f0; }
+
+.section-header {
+  color: #0f2027;
+  font-weight: 700;
+  margin-bottom: 15px; /* Reduced margin */
+  border-left: 5px solid #ffd700;
+  padding-left: 15px;
+}
+
+/* Keep the rest of the timeline CSS the same as I gave you before... */
+.edu-item { display: flex; gap: 30px; position: relative; }
+.edu-item::before { content: ''; position: absolute; left: 120px; top: 0; bottom: 0; width: 2px; background-color: #e0e0e0;}
+.edu-item::after { content: ''; position: absolute; left: 115px; top: 5px; width: 12px; height: 12px; background-color: #ffd700; border-radius: 50%; border: 2px solid white; box-shadow: 0 0 0 2px #ffd700;}
+.edu-date { min-width: 100px; text-align: right; font-weight: 700; color: #0f2027; font-size: 0.9rem; padding-top: 2px; }
+.edu-details { flex: 1; padding-bottom: 10px; } /* Reduced padding */
+.edu-details h4 { margin: 0; font-size: 1.1rem; color: #333; font-weight: 600; }
+.school-name { color: #2c5364; font-style: italic; margin: 2px 0 5px 0; }

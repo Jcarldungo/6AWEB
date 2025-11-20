@@ -1,0 +1,21 @@
+/* Import Google Font: Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+:host {
+  font-family: 'Poppins', sans-serif;
+  display: block;
+  background-color: #f4f7f6;
+  min-height: 100vh;
+  /* COMPACT CHANGE: Reduced padding from 40px to 10px */
+  padding: 10px;
+}
+
+.cv-wrapper {
+  /* COMPACT CHANGE: Increased width from 900px to 1000px */
+  max-width: 1000px;
+  margin: 0 auto;
+  background: #ffffff;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}

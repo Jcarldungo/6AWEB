@@ -1,0 +1,26 @@
+.section-box { padding: 30px 40px; }
+
+.section-header {
+  color: #0f2027;
+  border-bottom: 2px solid #ffd700;
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-bottom: 25px;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.skills-list li {
+  background-color: #0f2027; /* Midnight Blue Chips */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+}

@@ -1,0 +1,19 @@
+.footer-box {
+  background-color: #0f2027; /* Very Dark Blue */
+  color: #b0bec5;
+  padding: 40px 40px 20px 40px;
+}
+
+.footer-title { color: #ffd700; text-align: center; margin-top: 0; }
+
+.tech-columns {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #37474f;
+  padding-bottom: 20px;
+}
+
+.col strong { display: block; color: white; margin-bottom: 8px; }
+.copyright { text-align: center; font-size: 0.8rem; opacity: 0.6; }
