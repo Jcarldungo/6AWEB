@@ -1,0 +1,43 @@
+.header-container {
+  background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+  color: white;
+  /* COMPACT CHANGE: Reduced padding from 50px to 25px */
+  padding: 25px 30px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  /* COMPACT CHANGE: Smaller font size */
+  font-size: 2.2rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: #ffd700;
+  margin-top: 5px;
+  font-weight: 300;
+  font-size: 1.1rem;
+}
+
+.contact-info {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 0.85rem;
+  opacity: 0.9;
+}
+
+.profile-text {
+  margin-top: 20px; /* Reduced margin */
+  text-align: left;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 15px; /* Reduced padding */
+  border-radius: 8px;
+  border-left: 4px solid #ffd700;
+}
+
+.profile-text h3 { margin-top: 0; color: #ffd700; font-size: 1rem; margin-bottom: 5px;}
+.profile-text p { margin: 0; line-height: 1.5; font-size: 0.9rem; }

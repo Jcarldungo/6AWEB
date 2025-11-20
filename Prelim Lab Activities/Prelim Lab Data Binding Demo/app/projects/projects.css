@@ -1,0 +1,63 @@
+.section-box { padding: 40px; }
+.bg-offset { background-color: #f8fafd; }
+
+.section-header {
+  color: #0f2027;
+  font-weight: 700;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 30px;
+  font-size: 1.4rem;
+}
+
+/* Creative underline effect */
+.section-header::after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 4px;
+  background: #ffd700; /* Gold */
+  margin-top: 5px;
+  border-radius: 2px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+}
+
+.project-card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  border: 1px solid rgba(0,0,0,0.05);
+  /* Smooth animation for hover */
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+  position: relative;
+  top: 0;
+}
+
+/* THE HOVER EFFECT */
+.project-card:hover {
+  transform: translateY(-10px); /* Moves up */
+  box-shadow: 0 15px 30px rgba(15, 32, 39, 0.15); /* Big shadow */
+  border-top: 4px solid #ffd700; /* Gold accent appears on hover */
+}
+
+.project-card h4 {
+  margin-top: 0;
+  color: #0f2027;
+  font-weight: 700;
+}
+
+.tech {
+  color: #18bc9c; /* Teal for tech text */
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  display: block;
+}
